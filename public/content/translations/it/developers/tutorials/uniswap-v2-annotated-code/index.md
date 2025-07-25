@@ -82,7 +82,7 @@ Questo è il flusso più comune, usato dai trader:
 
 #### Nel contratto principale (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-2}
 
-7. Conia token di liquditià e li invia al chiamante
+7. Conia token di liquidità e li invia al chiamante
 8. Chiama `_update` per aggiornare gli importi della riserva
 
 ### Rimuovere la liquidità {#remove-liquidity-flow}

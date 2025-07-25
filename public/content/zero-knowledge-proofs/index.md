@@ -198,7 +198,7 @@ Verifying proofs also requires complex computation and increases the costs of im
 
 ### Trust assumptions {#trust-assumptions}
 
-In ZK-SNARK, the Common Reference String (public parameters) is generated once and available for re-use to parties who wish to participate in the zero-knowledge protocol. Public parameters are created via a trusted setup ceremony, where participants are assumed to be honest.
+In ZK-SNARK, the Common Reference String (public parameters) is generated once and available for reuse to parties who wish to participate in the zero-knowledge protocol. Public parameters are created via a trusted setup ceremony, where participants are assumed to be honest.
 
 But there’s really no way for users to assess the honesty of participants and users have to take developers at their word. ZK-STARKs are free from trust assumptions since the randomness used in generating the string is publicly verifiable. In the meantime, researchers are working on non-trusted setups for ZK-SNARKs to increase the security of proving mechanisms.
 

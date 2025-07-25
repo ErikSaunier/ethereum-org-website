@@ -183,7 +183,7 @@ Like payment channels, state channels can make conditional payments according to
 
 State channels are often limited to simple turn-based applications, as this makes it easier to manage funds committed to the onchain contract. Also, with a limited number of parties updating the offchain application's state at intervals, punishing dishonest behavior is relatively straightforward.
 
-The efficiency of a state channel application also depends on its design. For example, a developer might deploy the app channel contract onchain once and allow other players to re-use the app without having to go onchain. In this case, the initial app channel serves as a ledger channel supporting multiple virtual channels, each running a new instance of the app's smart contract offchain.
+The efficiency of a state channel application also depends on its design. For example, a developer might deploy the app channel contract onchain once and allow other players to reuse the app without having to go onchain. In this case, the initial app channel serves as a ledger channel supporting multiple virtual channels, each running a new instance of the app's smart contract offchain.
 
 A potential use-case for state channel applications is simple two-player games, where funds are distributed based on the game's outcome. The benefit here is that players don't have to trust each other (trustlessness) and the onchain contract, not players, controls the allocation of funds and settlement of disputes (decentralization).
 
